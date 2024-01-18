@@ -27,12 +27,12 @@
             <i class="fas fa-search"></i>
           </span>
           <input
-            class="border-primary w-full rounded-l-md border border-r-0 py-3 pl-12 pr-3 focus:outline-none"
+            class="w-full rounded-l-md border border-r-0 border-primary py-3 pl-12 pr-3 focus:outline-none"
             type="text"
             placeholder="search"
           />
           <button
-            class="bg-primary hover:text-primary border-primary rounded-r-md border px-8 text-white transition hover:bg-transparent"
+            class="rounded-r-md border border-primary bg-primary px-8 text-white transition hover:bg-transparent hover:text-primary"
           >
             Search
           </button>
@@ -41,35 +41,35 @@
         <div class="flex items-start space-x-4">
           <a
             href="#"
-            class="hover:text-primary relative text-center text-gray-700 transition"
+            class="relative text-center text-gray-700 transition hover:text-primary"
           >
             <div class="text-2xl">
               <i class="far fa-heart"></i>
             </div>
             <div class="text-xs leading-3">Wish List</div>
             <span
-              class="bg-primary absolute -top-1 right-0 flex h-5 w-5 items-center justify-center rounded-full text-xs text-white"
+              class="absolute -top-1 right-0 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-white"
               >8</span
             >
           </a>
 
           <a
             href="#"
-            class="hover:text-primary relative text-center text-gray-700 transition"
+            class="relative text-center text-gray-700 transition hover:text-primary"
           >
             <div class="text-2xl">
               <i class="fas fa-shopping-cart"></i>
             </div>
             <div class="text-xs leading-3">Cart</div>
             <span
-              class="bg-primary absolute -right-3 -top-1 flex h-5 w-5 items-center justify-center rounded-full text-xs text-white"
+              class="absolute -right-3 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-white"
               >8</span
             >
           </a>
 
           <a
             href="#"
-            class="hover:text-primary relative text-center text-gray-700 transition"
+            class="relative text-center text-gray-700 transition hover:text-primary"
           >
             <div class="text-2xl">
               <i class="far fa-user"></i>
@@ -86,7 +86,7 @@
       <div class="container flex">
         <!-- All category -->
         <div
-          class="bg-primary group relative flex cursor-pointer items-center px-8 py-4"
+          class="group relative flex cursor-pointer items-center bg-primary px-8 py-4"
         >
           <span class="text-white">
             <i class="fas fa-bars"></i>
@@ -200,5 +200,135 @@
       </div>
     </nav>
     <!-- Navbar end -->
+
+    <!-- Banner -->
+    <div
+      class="bg-cover bg-center bg-no-repeat py-36"
+      style="background-image: url(./assets/banner-bg.jpg)"
+    >
+      <div class="container">
+        <h1 class="mb-4 text-6xl font-medium capitalize text-gray-800">
+          best collection for <br />
+          home decoration
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis <br />
+          eius consequuntur saepe distinctio quis?
+        </p>
+        <div class="mt-12">
+          <a
+            href="#"
+            class="rounded-md border border-primary bg-primary px-8 py-3 font-medium text-white transition hover:bg-transparent hover:text-primary"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Feature Section -->
+    <div class="container py-16">
+      <div class="mx-auto grid w-10/12 grid-cols-3 justify-center gap-6">
+        <!-- Single Feature -->
+        <div
+          class="flex items-center justify-center gap-5 rounded-sm border border-primary px-3 py-6"
+        >
+          <img
+            src="./assets/icons/delivery-van.svg"
+            class="h-12 w-12 object-contain"
+          />
+          <div>
+            <h4 class="text-lg font-medium capitalize">free shipping</h4>
+            <p class="text-sm text-gray-500">order over $200</p>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center gap-5 rounded-sm border border-primary px-3 py-6"
+        >
+          <img
+            src="./assets/icons/money-back.svg"
+            class="h-12 w-12 object-contain"
+          />
+          <div>
+            <h4 class="text-lg font-medium capitalize">money returns</h4>
+            <p class="text-sm text-gray-500">30 Days money return</p>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-center gap-5 rounded-sm border border-primary px-3 py-6"
+        >
+          <img
+            src="./assets/icons/service-hours.svg"
+            class="h-12 w-12 object-contain"
+          />
+          <div>
+            <h4 class="text-lg font-medium capitalize">24/7 support</h4>
+            <p class="text-sm text-gray-500">Customer support</p>
+          </div>
+        </div>
+        <!-- Single Feature End -->
+      </div>
+    </div>
+    <!-- Feature Section End -->
+
+    <!-- Category -->
+    <div class="container py-16">
+      <h2 class="mb-6 text-3xl font-medium uppercase text-gray-800">
+        shop by category
+      </h2>
+      <div class="grid grid-cols-3 gap-3">
+        <!-- Single category -->
+        <div class="group relative overflow-hidden rounded-sm">
+          <img src="/assets/category/category-1.jpg" class="w-full" />
+          <a
+            href="#"
+            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-roboto font-medium text-white transition group-hover:bg-opacity-50"
+            >Bedroom</a
+          >
+        </div>
+        <div class="group relative overflow-hidden rounded-sm">
+          <img src="/assets/category/category-5.jpg" class="w-full" />
+          <a
+            href="#"
+            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-roboto font-medium text-white transition group-hover:bg-opacity-50"
+            >Sofa</a
+          >
+        </div>
+        <div class="group relative overflow-hidden rounded-sm">
+          <img src="/assets/category/category-3.jpg" class="w-full" />
+          <a
+            href="#"
+            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-roboto font-medium text-white transition group-hover:bg-opacity-50"
+            >Office</a
+          >
+        </div>
+        <div class="group relative overflow-hidden rounded-sm">
+          <img src="/assets/category/category-4.jpg" class="w-full" />
+          <a
+            href="#"
+            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-roboto font-medium text-white transition group-hover:bg-opacity-50"
+            >Outdoor</a
+          >
+        </div>
+        <div class="group relative overflow-hidden rounded-sm">
+          <img src="/assets/category/category-2.jpg" class="w-full" />
+          <a
+            href="#"
+            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-roboto font-medium text-white transition group-hover:bg-opacity-50"
+            >Mattress</a
+          >
+        </div>
+        <div class="group relative overflow-hidden rounded-sm">
+          <img src="/assets/category/category-6.jpg" class="w-full" />
+          <a
+            href="#"
+            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-roboto font-medium text-white transition group-hover:bg-opacity-50"
+            >Dinning</a
+          >
+        </div>
+        <!-- Single category end -->
+      </div>
+    </div>
+    <!-- Category end -->
   </body>
 </html>
